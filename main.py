@@ -14,7 +14,7 @@ firebase_admin.initialize_app(cred)
 db = firestore.client()
 
 
-ESP32_URL = "http://TU_IP_ESP32/cam-hi.jpg"
+ESP32_URL = "http://192.168.1.15/cam-hi.jpg"
 CAMARA_ID = "ESP32_CAM_01"
 
 

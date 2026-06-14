@@ -1,6 +1,24 @@
 .pio/build/esp32cam/src/main.cpp.o: src/main.cpp \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Arduino.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/esp_arduino_version.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WebServer/src/WebServer.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFi.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Print.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/WString.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/pgmspace.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Printable.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/IPAddress.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/WString.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Printable.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/IPv6Address.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiType.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_wifi/include/esp_wifi_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_wifi/include/esp_private/esp_wifi_types_private.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_err.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/esp_interface.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_event/include/esp_event_base.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiSTA.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiGeneric.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_event/include/esp_event.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/FreeRTOS.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
@@ -33,8 +51,6 @@
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/soc/cpu.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/esp_cpu.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/cpu_hal.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_err.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/soc_caps.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/cpu_types.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/esp32/include/hal/cpu_ll.h \
@@ -63,9 +79,54 @@
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/task.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/list.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/task_snapshot.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/semphr.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/task.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/semphr.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_event/include/esp_event_base.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_event/include/esp_event_legacy.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_netif/include/esp_netif.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_netif/include/esp_netif_ip_addr.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_netif/include/esp_netif_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_netif/include/esp_netif_defaults.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_eth/include/esp_eth_netif_glue.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_eth/include/esp_eth.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_eth/include/esp_eth_com.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/eth_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_eth/include/esp_eth_mac.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_eth/include/esp_eth_phy.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/tcpip_adapter/include/tcpip_adapter.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/tcpip_adapter/include/tcpip_adapter_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/ip_addr.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/opt.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/port/esp32/include/lwipopts.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/newlib/platform_include/sys/ioctl.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_system/include/esp_task.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/esp_additions/freertos/FreeRTOSConfig.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/port/esp32/include/netif/dhcp_state.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/port/esp32/include/sntp/sntp_get_set_time.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/debug.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/arch.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/port/esp32/include/arch/cc.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/port/esp32/include/arch/sys_arch.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/port/esp32/include/arch/vfs_lwip.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/def.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/ip4_addr.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/ip6_addr.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/def.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/lwip/src/include/lwip/ip6_zone.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/lwip/include/apps/dhcpserver/dhcpserver.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_netif/include/esp_netif_sta_list.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_wifi/include/esp_smartconfig.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/wifi_provisioning/include/wifi_provisioning/manager.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/protocomm/include/common/protocomm.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/protocomm/include/security/protocomm_security.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/wifi_provisioning/include/wifi_provisioning/wifi_config.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiAP.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiScan.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiClient.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Arduino.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/esp_arduino_version.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/esp32-hal.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/esp_sleep.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/touch_sensor_types.h \
@@ -75,7 +136,6 @@
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_struct.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_reg.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_sig_map.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/queue.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/event_groups.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/freertos/include/freertos/timers.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/esp32-hal-log.h \
@@ -106,19 +166,13 @@
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/stdlib_noniso.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/binary.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/WCharacter.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/WString.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/pgmspace.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Stream.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Print.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Printable.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/IPAddress.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/WString.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Printable.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Client.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Server.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Udp.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Stream.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/IPAddress.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/HardwareSerial.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/HWCDC.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Esp.h \
@@ -128,4 +182,23 @@
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/esp_flash_err.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash.h \
  /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/spi_flash/include/esp_spi_flash_counters.h \
- /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/soc/esp32/spiram.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Client.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiServer.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Server.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WiFi/src/WiFiUdp.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Udp.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/cbuf.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WebServer/src/HTTP_Method.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/nghttp/port/include/http_parser.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WebServer/src/Uri.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/libraries/WebServer/src/detail/RequestHandler.h \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam.h \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/asyncweb.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/camera.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/config.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/pins.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/resolution.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/mjpeg.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/frame.hpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/logger.hpp
