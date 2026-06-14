@@ -1,0 +1,33 @@
+.pio/build/esp32cam/libff0/esp32cam/esp32cam/resolution.cpp.o: \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/resolution.cpp \
+ .pio/libdeps/esp32cam/esp32cam/src/esp32cam/resolution.hpp \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Printable.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Print.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/WString.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/pgmspace.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/cores/esp32/Printable.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp32-camera/driver/include/esp_camera.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_err.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_compiler.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/driver/include/driver/ledc.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_hw_support/include/esp_intr_alloc.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/soc.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_assert.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_bit_defs.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/ledc_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/soc_caps.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/driver/include/driver/gpio.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_common/include/esp_attr.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/include/soc/gpio_periph.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/io_mux_reg.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_struct.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_reg.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/gpio_sig_map.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/hal/include/hal/gpio_types.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp_rom/include/esp32/rom/gpio.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/driver/include/driver/periph_ctrl.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/soc/esp32/include/soc/periph_defs.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp32-camera/driver/include/sensor.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp32-camera/conversions/include/img_converters.h \
+ /Users/saul/.platformio/packages/framework-arduinoespressif32@3.20009.0/tools/sdk/esp32/include/esp32-camera/conversions/include/esp_jpg_decode.h
